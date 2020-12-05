@@ -438,7 +438,6 @@ a {
   .vh-25 {
     margin: 0 auto;
     margin-top: 3%;
-    min-height: 0vh;
   }
 
   .w-25 {
