@@ -9,7 +9,8 @@
 
 h1,
 h2,
-h3 {
+h3,
+h3 > a {
   font-family: "Balsamiq Sans", cursive;
   text-transform: uppercase;
 }
@@ -224,7 +225,8 @@ h3 {
   font-size: 0.9em;
 }
 
-.white {
+.white,
+h3 > a {
   color: #ffffff;
 }
 
@@ -249,7 +251,8 @@ h3 {
   background-color: #ffffff;
 }
 
-.blue {
+.blue,
+a {
   color: #158fc7eb;
 }
 
@@ -491,7 +494,7 @@ a {
   }
 
   .footer-icon {
-    border-radius: 76%;
+    border-radius: 50%;
     width: 18%;
     text-align: center;
     margin: 0px;
