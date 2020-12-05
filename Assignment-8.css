@@ -1,0 +1,538 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Bree+Serif&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+  box-sizing: border-box;
+  /* overflow: auto; */
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Balsamiq Sans", cursive;
+  text-transform: uppercase;
+}
+
+p,
+a,
+li,
+i {
+  font-family: "Bree Serif", serif;
+}
+
+/* div {
+  border: 1px solid black;
+} */
+
+img,
+.w-100 {
+  width: 100%;
+}
+
+.container-fluid {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.nav-container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.top-background {
+  background: linear-gradient(
+      hsla(199, 91%, 49%, 0.3),
+      hsla(199, 91%, 49%, 0.3)
+    ),
+    url(new-a8.jpeg) bottom/cover no-repeat;
+
+  width: 100%;
+}
+
+.background-img {
+  background-image: url(background.jpeg);
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ireland-background {
+  background: linear-gradient(hsla(204, 6%, 15%, 0.8), hsla(199, 91%, 49%, 0.8)),
+    url(ireland-a8.jpeg) center/cover no-repeat;
+
+  width: 100%;
+}
+
+.nav-background {
+  background-color: #158fc7eb;
+}
+
+.logo-ice {
+  color: #ffffff;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo-header,
+.info,
+.sell-item,
+.btn,
+.payment-1,
+.payment-2,
+.icon {
+  justify-content: space-between;
+}
+
+.align-content-centre {
+  align-content: center;
+}
+
+.row-mr {
+  margin-right: auto;
+  margin-left: 20px;
+}
+
+.top-right-icon {
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.footer-icon {
+  border-radius: 40%;
+  border: none;
+  padding: 10px;
+  /* margin: 0px 5px 25px 0px; */
+}
+
+.w-25 {
+  width: 25%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-20 {
+  width: 20%;
+  float: right;
+}
+
+.w-10 {
+  width: 11%;
+}
+
+.w-90 {
+  width: 89%;
+}
+
+.h-25 {
+  min-height: 15vh;
+}
+
+.vh-25 {
+  min-height: 25vh;
+}
+
+.h-15 {
+  min-height: 5vh;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.py {
+  padding: 5px 0px;
+}
+
+.py-1 {
+  padding: 40px 0px;
+}
+
+.pyf {
+  padding: 40px 0px;
+}
+
+.py-2 {
+  padding: 80px 0px;
+}
+
+.px {
+  padding: 0px 20px;
+}
+
+.p {
+  padding: 20px;
+}
+
+.pr {
+  padding-right: 20px;
+}
+
+.pa {
+  line-height: 1.7;
+}
+
+.pb {
+  padding-bottom: 20px;
+}
+
+.small {
+  font-size: 0.6em;
+}
+
+.big {
+  font-size: 1.4em;
+}
+
+.big-btn {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  font-weight: bolder;
+  border: none;
+}
+
+.py-1 > div:first-child {
+  margin-bottom: 35px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.line p {
+  line-height: 1;
+}
+
+.font-11,
+h2 {
+  font-size: 1.1em;
+}
+
+h3 {
+  font-size: 0.9em;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.gray {
+  color: rgb(128, 128, 128);
+}
+
+.back-gray {
+  background-color: rgba(243, 237, 237, 0.748);
+}
+
+.back-white {
+  background-color: #ffffff;
+}
+
+.back-blue {
+  background-color: #158fc7eb;
+}
+
+.py > span {
+  color: #158fc7eb;
+  background-color: #ffffff;
+}
+
+.blue {
+  color: #158fc7eb;
+}
+
+input {
+  padding-left: 10px;
+}
+
+.form-button {
+  background-color: #158fc7eb;
+  color: #ffffff;
+  border: none;
+}
+
+input {
+  border: none;
+}
+
+.sell-item > h2 {
+  padding-bottom: 20px;
+}
+
+.nav-item {
+  text-transform: uppercase;
+  font-size: 1.2em;
+  color: #ffffff;
+}
+
+.nav {
+  justify-content: space-around;
+}
+
+.info {
+  min-height: 60vh;
+}
+
+.info-item {
+  min-height: 20vh;
+  width: 25%;
+  padding-bottom: 50px;
+}
+
+.info-item > h1 {
+  padding: 10px 0px;
+}
+
+.info-item > img {
+  height: 220px;
+}
+
+.item-list {
+  width: 23%;
+  min-height: 20vh;
+  margin-bottom: 20px;
+}
+
+.item-list > img {
+  height: 300px;
+}
+
+.industry-item-1 {
+  width: 33.3333333%;
+}
+
+.industry-item-1 > h3 {
+  padding: 15px;
+}
+
+.industry-item-2 {
+  width: 66.6666666%;
+  background: url(surgeon-a8.jpeg) center/cover no-repeat;
+}
+
+.industry-item-3 {
+  width: 50%;
+  min-height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+
+.industry-item-3 > p,
+ul {
+  padding-top: 30px;
+}
+
+ul {
+  margin-left: 10%;
+}
+
+.container-ireland {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.container-ireland > h1 {
+  padding: 0px 20px 20px 20px;
+}
+
+.btn-1 {
+  width: 45%;
+}
+
+.footer-item {
+  width: 25%;
+  color: #158fc7eb;
+  min-height: 20vh;
+}
+
+.footer-item > h2 {
+  margin-bottom: 20px;
+}
+
+.payment {
+  width: 60%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.payment-item-1,
+.payment-item-2 {
+  width: 32%;
+}
+
+.payment img {
+  height: 20px;
+  margin-bottom: 5px;
+}
+
+.logo-footer {
+  max-height: 20vh;
+}
+
+@media screen and (max-width: 992px) {
+  .navi {
+    padding: 0px 20px;
+  }
+
+  .container-ireland {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .w-25 {
+    width: 40%;
+  }
+
+  .info-item {
+    width: 50%;
+    min-height: 100vh;
+  }
+
+  .info-item > img {
+    height: 300px;
+  }
+
+  .item-list {
+    width: 45%;
+  }
+
+  .container-ireland {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .row-mr {
+    margin-left: 0px;
+    margin-right: initial;
+  }
+
+  .nav-container {
+    text-align: center;
+  }
+
+  .vh-25 {
+    margin: 0 auto;
+    margin-top: 3%;
+  }
+
+  .w-25 {
+    width: 60%;
+  }
+
+  .h-15 {
+    margin-top: 5%;
+  }
+
+  .py {
+    padding: 10px 0px;
+  }
+
+  .navi {
+    padding: 5px 0px;
+  }
+
+  .info-item {
+    width: 100%;
+  }
+
+  .info-item > img {
+    height: 390px;
+  }
+
+  .item-list {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
+  .industry-item-1 {
+    width: 100%;
+  }
+
+  .industry-item-2 {
+    width: 100%;
+  }
+
+  .industry-item-3 {
+    width: 100%;
+  }
+
+  .container-ireland {
+    width: 100%;
+  }
+
+  .btn-1 {
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+
+  .footer-item {
+    width: 57%;
+    /* color: #158fc7eb; */
+    /* min-height: 20vh; */
+    /* margin: 0 auto; */
+    margin-bottom: 60px;
+  }
+
+  .footer-icon {
+    border-radius: 76%;
+    /* border: none; */
+    /* padding: 10px; */
+    width: 18%;
+    text-align: center;
+    margin: 0px;
+  }
+
+  .icon {
+    display: revert;
+  }
+
+  .logo-footer {
+    max-height: 30vh;
+  }
+
+  .payment-1,
+  .payment-2 {
+    display: -webkit-inline-box;
+    margin-bottom: 10px;
+  }
+
+  .payment {
+    width: 100%;
+  }
+
+  .payment img {
+    height: 40px;
+    margin-bottom: 0px;
+    padding-right: 10px;
+  }
+
+  .pyf {
+    padding-top: 40px;
+  }
+}
