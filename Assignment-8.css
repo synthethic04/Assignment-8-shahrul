@@ -438,10 +438,11 @@ a {
   .vh-25 {
     margin: 0 auto;
     margin-top: 3%;
+    min-height: 0vh;
   }
 
   .w-25 {
-    width: 60%;
+    width: 80%;
   }
 
   .h-15 {
@@ -493,16 +494,11 @@ a {
 
   .footer-item {
     width: 57%;
-    /* color: #158fc7eb; */
-    /* min-height: 20vh; */
-    /* margin: 0 auto; */
     margin-bottom: 60px;
   }
 
   .footer-icon {
     border-radius: 76%;
-    /* border: none; */
-    /* padding: 10px; */
     width: 18%;
     text-align: center;
     margin: 0px;
