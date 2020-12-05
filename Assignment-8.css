@@ -426,6 +426,7 @@ a {
   .row-mr {
     margin-left: 0px;
     margin-right: initial;
+    color: white;
   }
 
   .nav-container {
